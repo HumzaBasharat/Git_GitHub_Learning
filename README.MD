@@ -12,8 +12,7 @@ git branch -M main | Rename the branch
 
 git branch | To see in which branch I'm right now.
 
-____
-
+____ 
 When you are using git or github in you pc
 
 git config --global user.name "First and Last Name"
@@ -25,7 +24,17 @@ git remote add origin https://github.com/HumzaBasharat/Git_GitHub_Learning.git
 
 git remote -v | See fetch and push destiantion 
 
-git push origin main
+____
 
 
+git push -u origin main | is short for --set-upstream
+
+This makes the remote branch the upstream branch for your local branch.
+
+After this, you can just run:
+
+git push
+git pull
+
+____
 
