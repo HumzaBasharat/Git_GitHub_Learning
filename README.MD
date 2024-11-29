@@ -10,6 +10,22 @@ git commit -m "This is my first commit"
 
 git branch -M main | Rename the branch
 
+git branch | To see in which branch I'm right now.
+
+____
+
+When you are using git or github in you pc
+
+git config --global user.name "First and Last Name"
+
+git config --global user.email "email@gmail.com"
+___
+
 git remote add origin https://github.com/HumzaBasharat/Git_GitHub_Learning.git
 
 git remote -v | See fetch and push destiantion 
+
+git push origin main
+
+
+
