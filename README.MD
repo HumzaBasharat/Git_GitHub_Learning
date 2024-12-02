@@ -26,15 +26,23 @@ git remote -v | See fetch and push destiantion
 
 ____
 
-
 git push -u origin main | is short for --set-upstream
+
+error without this
+
+    PS G:\DASHBORAD\portfolio_projects\Git_GitHub_Learning> git push            
+    fatal: The current branch main has no upstream branch.
+    To push the current branch and set the remote as upstream, use
+
+        git push --set-upstream origin main
+
+    To have this happen automatically for branches without a tracking
+    upstream, see 'push.autoSetupRemote' in 'git help config'.
 
 This makes the remote branch the upstream branch for your local branch.
 
 After this, you can just run:
 
 git push
-git pull
-
+git pull  
 ____
-
