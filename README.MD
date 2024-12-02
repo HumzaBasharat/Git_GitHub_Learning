@@ -46,3 +46,15 @@ After this, you can just run:
 git push
 git pull  
 ____
+
+Make git ignore file name with .gitignore
+
+then:
+
+choose .gitignore templete: None -> Python
+
+then:
+
+Commit changes...
+
+What is the importance of .gitignore file
